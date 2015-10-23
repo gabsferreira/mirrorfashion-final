@@ -20,3 +20,19 @@ body {
     color: #333333;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
+
+/* Exercicios 3.10 */
+
+.menu-opcoes ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.sacola {
+    padding-top: 8px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 940px;
+}
