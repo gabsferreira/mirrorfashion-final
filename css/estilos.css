@@ -54,3 +54,63 @@ header {
     top: 0;
     right: 0;
 }
+
+/*Exercicios 4.7*/
+
+/* Aplique o estilo visual do design com CSS. Queremos um fundo cinza nas caixas de busca e no
+menu de departamentos. Além disso, o texto deve estar em negrito e apresentado em maiúsculas.
+Aplicaremos também algumas regras de tamanhos e margens. */
+
+.busca,
+.menu-departamentos {
+    background-color: #dcdcdc;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 10px;
+    width: 230px;
+}
+
+.busca h2,
+.busca form,
+.menu-departamentos h2 {
+    margin: 10px;
+}
+
+.menu-departamentos li {
+    background-color: white;
+    margin-bottom: 1px;
+    padding: 5px 10px;
+}
+
+.menu-departamentos a {
+    color: #333333;
+    text-decoration: none;
+}
+
+.busca input {
+    vertical-align: middle;
+}
+
+.busca input[type=search] {
+    width: 170px;
+}
+
+/* Flutuar os elementos à esquerda pra acertar o menu e a busca */
+.busca,
+.menu-departamentos {
+    float: left;
+}
+.menu-departamentos {
+    clear: left;
+}
+
+/* Acertar margens e posicionamento do menu lateral e topo */
+
+.destaque {
+    margin-top: 10px;
+}
+.menu-departamentos {
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
