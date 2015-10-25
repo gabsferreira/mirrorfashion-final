@@ -114,3 +114,52 @@ Aplicaremos também algumas regras de tamanhos e margens. */
     padding-bottom: 10px;
 }
 
+/*Exercicios 4.9*/
+
+/*O painel de novidades deve utuar à esquerda e o mais-vendidos, à direita. Cada um deve
+ocupar 445px (pouco menos da metade dos 940px), assim um ficará ao lado do outro:
+*/
+
+.painel {
+    margin: 10px 0;
+    padding: 10px;
+    width: 445px;
+}
+.novidades {
+    float: left;
+}
+.mais-vendidos {
+    float: right;
+}
+
+
+/*Para alinhar os itens dentro dos painéis */
+
+.painel li {
+    display: inline-block;
+    vertical-align: top;
+    width: 140px;
+    margin: 2px;
+    padding-bottom: 10px;
+}
+
+/* Fuleragens */
+
+.painel h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.painel a {
+    color: #333;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+.novidades {
+    background-color: #f5dcdc;
+}
+.mais-vendidos {
+    background-color: #dcdcf5;
+}
