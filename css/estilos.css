@@ -213,3 +213,30 @@ footer .container {
     float: left;
     margin-left: 25px;
 }
+
+/* Exercícios 5.4 */
+
+/* Para dar uns efeitinhos no menu superior */
+.menu-opcoes a:hover {
+    color: #007dc6;
+}
+.menu-opcoes a:active {
+    color: #867dc6;
+}
+
+/* Pra fazer uns subitens aparecerem no menu lateral */
+.menu-departamentos li ul {
+    display: none;
+}
+.menu-departamentos li:hover ul {
+    display: block;
+}
+.menu-departamentos ul ul li {
+    background-color: #dcdcdc;
+}
+
+/* Adicionando um traço no inicio dos links do menu */
+.menu-departamentos li li a:before {
+    content: '- ';
+}
+
