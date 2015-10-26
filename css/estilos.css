@@ -273,3 +273,21 @@ footer .container {
     background: linear-gradient(#dcdcf5, #f4bebe);
 }
 
+/* Exercícios 5.16 */
+
+/* Pra mostrar sombra atrás dos itens dos paineis */
+.painel li:hover {
+    background-color: rgba(255,255,255,0.8); /* pra deixar o texto em baixo branco também*/
+    box-shadow: 0 0 5px #333;
+    transform: scale(1.2) rotate(-5deg); /* Pra aumentar quando passar o mouse em cima e rotacionar um pouquinho */
+    
+    transition: box-shadow 0.7s;
+}
+
+.painel li:nth-child(2n):hover {
+    transform: scale(1.2) rotate(5deg);
+}
+
+.painel li {
+    transition: 0.7s;
+}
