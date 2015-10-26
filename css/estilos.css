@@ -240,3 +240,36 @@ footer .container {
     content: '- ';
 }
 
+/* Exercícios 5.13 */
+.painel {
+    border-radius: 4px;
+    box-shadow: 1px 1px 4px  #999; /* x, y, blur, cor */
+}
+
+.busca {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+/* Deixando as duas formas de fazer a sombra, a segunda usando opacidade */
+.painel h2 {
+    text-shadow: 3px 3px 2px #FFF;
+}
+
+.painel h2 {
+    text-shadow: 1px 1px 2px rgba(255,255,255,0.8);
+}
+
+
+/* gradientes */
+
+.novidades {
+    background-color: #f5dcdc;
+    background: linear-gradient(#f5dcdc, #bebef4);
+}
+
+.mais-vendidos {
+    background: #dcdcf5;
+    background: linear-gradient(#dcdcf5, #f4bebe);
+}
+
