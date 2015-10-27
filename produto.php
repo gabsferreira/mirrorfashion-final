@@ -18,7 +18,7 @@
                     <h1>Fuzzy Cardigan</h1>
                     <p>por apenas R$ 129,00</p>
 
-                    <form>
+                    <form action="checkout.php" method="post">
                         <fieldset class="cores">
                             <legend>Escolha a cor:</legend>
 
@@ -43,9 +43,10 @@
                         </fieldset>
 
                         <input type="submit" class="comprar" value="Comprar">
+                        <!-- exercicios 9.4 -->
+                        <input type="hidden" name="nome" value="Fuzzy Cardigan">
                     </form>
                 </div>
-                <!-- exercicios 8.13 -->
                 <div class="detalhes">
                     <h2>Detalhes do produto</h2>
                     <p>Esse é o melhor casaco de Cardigã que você já viu. Excelente
