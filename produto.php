@@ -45,6 +45,8 @@
                         <input type="submit" class="comprar" value="Comprar">
                         <!-- exercicios 9.4 -->
                         <input type="hidden" name="nome" value="Fuzzy Cardigan">
+                        <input type="hidden" name="id" value="3">
+                        <input type="hidden" name="cor" value="rosa">
                     </form>
                 </div>
                 <div class="detalhes">
