@@ -3,9 +3,28 @@
         <title>Checkout da Mirror Fashion</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
-        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap-flatly.css">
+        <style>
+            .navbar {
+                margin: 0;
+            }
+        </style>
     </head>
     <body>
+        <nav class="navbar navbar-default navbar-static-top">
+            <div class="navbar-header">
+                <button class="navbar-toggle" type="button" data-target=".navbar-collapse" data-toggle="collapse">
+                    menu
+                </button>
+                <a class="navbar-brand" href="index.php">Mirror Fashion</a>
+            </div>
+            <ul class="nav navbar-nav collapse navbar-collapse">
+                <li><a href="sobre.php">Sobre</a></li>
+                <li><a href="#">Ajuda</a></li>
+                <li><a href="#">Perguntas frequentes</a></li>
+                <li><a href="#">Entre em contato</a></li>
+            </ul>
+        </nav>
         <div class="jumbotron">
             <div class="container">
                 <h1>Ótima escolha!</h1>
@@ -98,5 +117,7 @@
                 </div>
             </div>
         </div>
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.js"></script>
     </body>
 </html>
