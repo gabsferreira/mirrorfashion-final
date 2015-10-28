@@ -39,7 +39,7 @@
                             
                             <div class="form-group">
                                 <label for="nome">Nome completo</label>
-                                <input type="text" class="form-control" id="nome" name="nome" autofocus>
+                                <input type="text" class="form-control" id="nome" name="nome" autofocus required>
                             </div>
                             <div class="form-group">
                                 <label for="email">Email</label>
@@ -52,7 +52,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="cpf">CPF</label>
-                                <input type="text" class="form-control" id="cpf" name="cpf" placeholder="000.000.000-00">
+                                <input type="text" class="form-control" id="cpf" name="cpf" placeholder="000.000.000-00" required>
                             </div>
                             <div class="checkbox">
                                 <label>
