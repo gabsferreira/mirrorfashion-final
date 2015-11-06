@@ -43,15 +43,31 @@
                                     <img src="img/produtos/foto<?= $_POST["id"] ?>-<?= $_POST["cor"] ?>.png"
                                             class="img-thumbnail img-responsive">
                                     <dl>
+                                        <dt>Produto</dt>
+                                        <dd><?= $_POST['nome'] ?></dd>
+                                        
+                                        <dt>Preço</dt>
+                                        <dd id="preco"><?= $_POST["preco"] ?></dd>
+                                        
                                         <dt>Cor</dt>
                                         <dd><?= $_POST['cor'] ?></dd>
 
                                         <dt>Tamanho</dt>
                                         <dd><?= $_POST['tamanho'] ?></dd>
-
-                                        <dt>Produto</dt>
-                                        <dd><?= $_POST['nome'] ?></dd>
                                     </dl>
+                                    
+                                    <div class="form-group">
+                                        <label for="qt">Quantidade</label>
+                                        <input id="qt" class="form-control" type="number" min="0" max="99" value="1">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="total">Total</label>
+                                        <output for="qt valor" id="total" class="form-control">
+                                        <?= $POST["preco"] ?>
+                                        </output>
+                                    </div>
+                                
+
                                 </div><!-- fim .panel-body -->
                             </div><!-- fim .panel -->
                         </div>
@@ -121,5 +137,6 @@
         <script src="js/bootstrap.js"></script>
         <script src="js/converteMoeda.js"></script>
         <script src="js/testaConversao.js"></script>
+		<script src="js/total.js"></script>
     </body>
 </html>
