@@ -307,3 +307,14 @@ footer .container {
   right: 70px;
   top: 10px;
 }
+
+.painel button {
+  display: none;
+}
+
+.painel-compacto li:nth-child(n+7) {
+  display: none;
+}
+.painel-compacto button {
+  display: block;
+}

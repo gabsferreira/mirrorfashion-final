@@ -51,7 +51,7 @@
         </div>
         <!--exercicios 4.9 */-->
         <div class="container paineis">
-            <section class="painel novidades">
+            <section class="painel novidades painel-compacto">
                 <h2>Novidades</h2>
                 <ol>
                     <li>
@@ -63,46 +63,71 @@
                         </a>
                     </li>
                     <li>
-						<a href="produto.html">
-							<figure>
-								<img src="img/produtos/miniatura2.png">
-								<figcaption>Roupa bem louca por R$ 19,90</figcaption>
-							</figure>
-						</a>
-					</li>
-					<li>
-						<a href="produto.html">
-							<figure>
-								<img src="img/produtos/miniatura3.png">
-								<figcaption>O gerente tá doidão camiseta por R$ 119,00</figcaption>
-							</figure>
-						</a>
-					</li>
-					<li>
-						<a href="produto.html">
-							<figure>
-								<img src="img/produtos/miniatura4.png">
-								<figcaption>Calça doidera por R$ 129,90</figcaption>
-							</figure>
-						</a>
-					</li>
-					<li>
-						<a href="produto.html">
-							<figure>
-								<img src="img/produtos/miniatura5.png">
-								<figcaption>Olar por R$ 5,90</figcaption>
-							</figure>
-						</a>
-					</li>
-					<li>
-						<a href="produto.html">
-							<figure>
-								<img src="img/produtos/miniatura6.png">
-								<figcaption>Peçde roupa doida por R$ 59,90</figcaption>
-							</figure>
-						</a>
-					</li>
-				</ol>
+          						<a href="produto.html">
+          							<figure>
+          								<img src="img/produtos/miniatura2.png">
+          								<figcaption>Roupa bem louca por R$ 19,90</figcaption>
+          							</figure>
+          						</a>
+          					</li>
+          					<li>
+          						<a href="produto.html">
+          							<figure>
+          								<img src="img/produtos/miniatura3.png">
+          								<figcaption>O gerente tá doidão camiseta por R$ 119,00</figcaption>
+          							</figure>
+          						</a>
+          					</li>
+          					<li>
+          						<a href="produto.html">
+          							<figure>
+          								<img src="img/produtos/miniatura4.png">
+          								<figcaption>Calça doidera por R$ 129,90</figcaption>
+          							</figure>
+          						</a>
+          					</li>
+          					<li>
+          						<a href="produto.html">
+          							<figure>
+          								<img src="img/produtos/miniatura5.png">
+          								<figcaption>Olar por R$ 5,90</figcaption>
+          							</figure>
+          						</a>
+          					</li>
+          					<li>
+          						<a href="produto.html">
+          							<figure>
+          								<img src="img/produtos/miniatura6.png">
+          								<figcaption>Peçde roupa doida por R$ 59,90</figcaption>
+          							</figure>
+          						</a>
+          					</li>
+                    <li>
+          						<a href="produto.html">
+          							<figure>
+          								<img src="img/produtos/miniatura4.png">
+          								<figcaption>Calça doidera por R$ 129,90</figcaption>
+          							</figure>
+          						</a>
+          					</li>
+          					<li>
+          						<a href="produto.html">
+          							<figure>
+          								<img src="img/produtos/miniatura5.png">
+          								<figcaption>Olar por R$ 5,90</figcaption>
+          							</figure>
+          						</a>
+          					</li>
+          					<li>
+          						<a href="produto.html">
+          							<figure>
+          								<img src="img/produtos/miniatura6.png">
+          								<figcaption>Peçde roupa doida por R$ 59,90</figcaption>
+          							</figure>
+          						</a>
+          					</li>
+          				</ol>
+                  <button type="button">Mostra mais</button>
             </section>
             <section class="painel mais-vendidos">
                 <h2>Mais Vendidos</h2>
@@ -159,8 +184,9 @@
                 </section>
         </div>
         <?php include("rodape.php"); ?>
+        <script src="js/jquery.js"></script>
         <script src="js/converteMoeda.js"></script>
         <script src="js/testaConversao.js"></script>
-        <script src="js/banner.js"></script>
+        <script src="js/home.js"></script>
     </body>
 </html>
