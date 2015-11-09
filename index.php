@@ -4,15 +4,15 @@
         <title>Mirror Fashion</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
-        
+
         <link rel="stylesheet" href="css/estilos.css">
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/mobile.css" media="(max-width: 939px)">
     </head>
     <body>
-        
+
         <?php include("cabecalho.php"); ?>
-        
+
         <div class="container destaque">
             <section class="busca">
                 <h2>Busca</h2>
@@ -43,7 +43,11 @@
                     </ul>
                 </nav>
             </section>
-            <img src="img/destaque-home.png" alt="Promoção: Big City Night">
+            <section class="sectionImagem">
+                <img src="img/destaque-home.png" alt="Promoção: Big City Night">
+                <input type="button" value="Pausar" id="botaoPausa">
+                <input type="button" value="Recomeçar" id="botaoRecomeca">
+            </section>
         </div>
         <!--exercicios 4.9 */-->
         <div class="container paineis">
@@ -157,5 +161,6 @@
         <?php include("rodape.php"); ?>
         <script src="js/converteMoeda.js"></script>
         <script src="js/testaConversao.js"></script>
+        <script src="js/banner.js"></script>
     </body>
 </html>

@@ -205,7 +205,7 @@ footer .container {
 
 .social {
     position: absolute;
-    top: 12px;   
+    top: 12px;
     right: 0;
 }
 
@@ -280,7 +280,7 @@ footer .container {
     background-color: rgba(255,255,255,0.8); /* pra deixar o texto em baixo branco também*/
     box-shadow: 0 0 5px #333;
     transform: scale(1.2) rotate(-5deg); /* Pra aumentar quando passar o mouse em cima e rotacionar um pouquinho */
-    
+
     transition: box-shadow 0.7s;
 }
 
@@ -290,4 +290,20 @@ footer .container {
 
 .painel li {
     transition: 0.7s;
+}
+
+.sectionImagem {
+  position: relative;
+}
+
+#botaoPausa {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+#botaoRecomeca {
+  position: absolute;
+  right: 70px;
+  top: 10px;
 }
