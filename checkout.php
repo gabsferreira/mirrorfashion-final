@@ -30,7 +30,7 @@
                 <h1>Ótima escolha!</h1>
                 <p>Obrigado por comprar na Mirror Fashion!
                 Preencha seus dados para efetivar a compra.</p>
-                
+
                 <!-- Exercicios 10.15 -->
                 <div class="container">
                     <div class="row">
@@ -45,17 +45,17 @@
                                     <dl>
                                         <dt>Produto</dt>
                                         <dd><?= $_POST['nome'] ?></dd>
-                                        
+
                                         <dt>Preço</dt>
                                         <dd id="preco"><?= $_POST["preco"] ?></dd>
-                                        
+
                                         <dt>Cor</dt>
                                         <dd><?= $_POST['cor'] ?></dd>
 
                                         <dt>Tamanho</dt>
                                         <dd><?= $_POST['tamanho'] ?></dd>
                                     </dl>
-                                    
+
                                     <div class="form-group">
                                         <label for="qt">Quantidade</label>
                                         <input id="qt" class="form-control" type="number" min="0" max="99" value="1">
@@ -66,12 +66,12 @@
                                         <?= $POST["preco"] ?>
                                         </output>
                                     </div>
-                                
+
 
                                 </div><!-- fim .panel-body -->
                             </div><!-- fim .panel -->
                         </div>
-                
+
                         <form class="col-sm-8">
                             <div class="row">
                                 <fieldset class="col-md-6">
@@ -92,7 +92,7 @@
                                     </div>
                                     <div class="form-group">
                                         <label for="cpf">CPF</label>
-                                        <input type="text" class="form-control" id="cpf" name="cpf" placeholder="000.000.000-00" required>
+                                        <input type="text" class="form-control" id="cpf" name="cpf" placeholder="000.000.000-00" required data-mask="999.999.999-99">
                                     </div>
                                     <div class="checkbox">
                                         <label>
@@ -106,8 +106,7 @@
 
                                     <div class="form-group">
                                         <label for="numero-cartao">Número - CVV</label>
-                                        <input type="text" class="form-control"
-                                        id="numero-cartao" name="numero-cartao">
+                                        <input type="text" class="form-control" id="numero-cartao" name="numero-cartao" data-mask="9999 9999 9999 9999 - 999">
                                     </div>
                                     <div class="form-group">
                                         <label for="bandeira-cartao">Bandeira</label>
@@ -128,7 +127,7 @@
                                 Confirmar Pedido
                             </button>
                         </form>
-                            
+
                     </div>
                 </div>
             </div>
@@ -137,6 +136,7 @@
         <script src="js/bootstrap.js"></script>
         <script src="js/converteMoeda.js"></script>
         <script src="js/testaConversao.js"></script>
+        <script src="js/inputmask-plugin.js"></script>
 		<script src="js/total.js"></script>
     </body>
 </html>
