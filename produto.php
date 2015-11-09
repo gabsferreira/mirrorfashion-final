@@ -11,7 +11,7 @@
     </head>
     <body>
         <?php include("cabecalho.php"); ?>
-        
+
         <div class="produto-back">
             <div class="container">
                 <div class="produto">
@@ -40,6 +40,7 @@
                         <fieldset class="tamanhos">
                             <legend>Escolha o tamanho:</legend>
                             <input type="range" min="36" max="46" value="42" step="2" name="tamanho" id="tamanho">
+                            <output for="tamanho" name="valortamanho">42</output>
                         </fieldset>
 
                         <input type="submit" class="comprar" value="Comprar">
@@ -87,5 +88,11 @@
             </div>
         </div>
         <?php include("rodape.php"); ?>
+        <script src="js/jquery.js"></script>
+        <script>
+            $('[name=tamanho]').on('input', function(){
+                $('[name=valortamanho]').val(this.value);
+            });
+        </script>
     </body>
 </html>
